@@ -7,9 +7,9 @@ import Button from 'react-bootstrap/Button';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './navbar';
 import './css/style.css';
-import BienMateriel from '../../models/possessions/BienMateriel';
-import Flux from '../../../models/possessions/Flux';
-import Personne from '../../../models/Personne';
+import BienMateriel from '../assets/models/possessions/BienMateriel.js';
+import Flux from '.../assets/models/possessions/Flux.js';
+import Personne from '../assets/models/possessions/Personne.js';
 const apiUrl = import.meta.env.VITE_API_URL;
 
 
