@@ -9,7 +9,7 @@ import Navbar from './navbar';
 import './css/style.css';
 import BienMateriel from '@models/possessions/BienMateriel';
 import Flux from '@models/possessions/Flux';
-import Personne from '@models/possessions/Personne';
+import Personne from '@models/Personne';
 const apiUrl = import.meta.env.VITE_API_URL;
 
 
